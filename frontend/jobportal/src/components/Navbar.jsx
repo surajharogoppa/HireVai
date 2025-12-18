@@ -255,11 +255,11 @@ const Navbar = () => {
             style={{
               display: "flex",
               alignItems: "center",
-              gap: 8,
+              gap: 6,
               textDecoration: "none",
             }}
           >
-            <img src={logo} alt="Logo" style={{ width: 40 }} />
+            <img src={logo} alt="Logo" style={{ width: 30 }} />
             <span style={gradientTextStyle}>
               <span style={{ fontWeight: "bold" }}>Hire</span>
               <span style={{ fontWeight: "normal" }}>Vai</span>
