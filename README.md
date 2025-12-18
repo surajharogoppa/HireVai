@@ -1,76 +1,58 @@
-HireVai
+# HireVai 🚀
 
-HireVai is a full-stack Job Portal built with a React frontend and a Node.js + Express backend.
+HireVai is a **full-stack Job Portal application** built with a **React frontend** and a **Node.js + Express backend**. It supports two primary roles — **Candidates** and **Recruiters** — and enables an end-to-end hiring workflow including job posting, job applications, applicant management, and dashboards, all wrapped in a modern and responsive UI.
 
-It supports two roles – Candidates and Recruiters – and covers the full hiring flow: posting jobs, applying, managing applications, and tracking results in a modern, responsive UI.
+---
 
-✨ Features
-👨‍💼 Candidate
+## ✨ Features
 
-Register / login with secure authentication
+### 👨‍💼 Candidate Features
+- Secure registration and login  
+- Create, view, and update candidate profile  
+- Browse and search jobs with filters  
+- View detailed job descriptions  
+- Apply to jobs directly  
+- Track applied jobs in a dedicated **Applications** page  
+- Save jobs for later  
+- Get **Recommended Jobs** based on profile  
 
-Complete and update candidate profile
+### 🧑‍💻 Recruiter Features
+- Secure recruiter registration and login  
+- Create and update recruiter/company profile  
+- Post new jobs  
+- Edit and delete existing job postings  
+- Manage all posted jobs  
+- View applicants for each job  
+- Recruiter Dashboard with quick statistics  
 
-Browse and search jobs with filters
+### 🌐 General Features
+- Modern and responsive UI  
+- RESTful API architecture  
+- Role-based access control  
+- Clean separation of frontend and backend  
 
-View detailed job descriptions
+---
 
-Apply to jobs directly
+## 🏗️ Tech Stack
 
-View all applications in a dedicated Applications page
+### Frontend
+- React  
+- React Router  
+- Axios  
+- Modern CSS  
 
-Saved Jobs functionality
+### Backend
+- Node.js  
+- Express  
+- JavaScript  
+- MongoDB / PostgreSQL  
+- CORS support  
 
-Recommended Jobs based on profile
+---
 
-🧑‍💻 Recruiter
+## 📁 Project Structure
 
-Register / login
-
-Update recruiter & company profile
-
-Post, update, delete jobs
-
-Manage posted jobs
-
-View applicants for each job
-
-Recruiter Dashboard for quick statistics
-
-🌐 General
-
-Modern, responsive UI
-
-REST API architecture
-
-Role-based access
-
-Clean frontend-backend separation
-
-🏗️ Tech Stack
-Frontend
-
-React
-
-React Router
-
-Axios
-
-Modern CSS
-
-Backend
-
-Node.js
-
-Express
-
-JavaScript
-
-MongoDB / PostgreSQL (or your DB)
-
-CORS support
-
-📁 Project Structure
+```text
 HireVai/
 ├── backend/
 │   └── jobportal/
@@ -81,89 +63,128 @@ HireVai/
 │       ├── middleware/
 │       └── ...
 └── frontend/
-    ├── public/
-    └── src/
-        ├── api/
-        ├── components/
-        ├── pages/
-        ├── context/
-        ├── App.jsx
-        └── main.jsx
+    └── jobportal/
+        ├── public/
+        └── src/
+            ├── api/
+            ├── components/
+            ├── pages/
+            ├── context/
+            ├── App.jsx
+            └── main.jsx
+```
 
-🔐 Authentication & Roles
+---
 
-Candidate and Recruiter accounts
+## 🔐 Authentication & Roles
+- Separate **Candidate** and **Recruiter** accounts  
+- Role-specific dashboards and protected routes  
+- JWT-based authentication  
+- Backend permission middleware for APIs  
 
-Role-specific dashboards and routes
+---
 
-API permission middleware in backend
+## 📜 Useful Scripts
 
-JWT / session-based authentication
-
-📜 Useful Scripts
-Backend
+### Backend
+```bash
 npm install
 npm start
+```
 
-Frontend
+### Frontend
+```bash
 npm install
-npm start
-# or if using Vite
-npm run dev
+npm start      # or `npm run dev` if using Vite
 npm run build
+```
 
-🚀 How to Run the Project
-1️⃣ Clone the Repository
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/surajharogoppa/HireVai.git
 cd HireVai
+```
 
-2️⃣ Start the Backend (Node.js)
+### 2️⃣ Start the Backend (Node.js)
+```bash
 cd backend/jobportal
 npm install
+```
 
+Create a `.env` file inside `backend/jobportal`:
 
-Create a .env file inside backend:
-
+```env
 PORT=5000
 DB_URI=<your_database_connection_string>
 JWT_SECRET=<your_secret_key>
-
+```
 
 Start the backend server:
-
+```bash
 npm start
+```
 
+Backend runs at:
+```
+http://localhost:5000/
+```
 
-Backend runs at: http://localhost:5000/
+---
 
-3️⃣ Start the Frontend (React)
-
+### 3️⃣ Start the Frontend (React)
 Open a new terminal:
 
+```bash
 cd frontend/jobportal
 npm install
-npm start   # or `npm run dev` if using Vite
+npm start      # or `npm run dev` if using Vite
+```
 
+Frontend runs at:
+```
+http://localhost:3000/
+```
 
-Frontend runs at: http://localhost:3000/
+---
 
-✔️ Project is Running!
-You now have full access to Candidate features, Recruiter features, Job Posting, Applications, and Dashboards.
+## ✔️ Project Status
+The project is fully running with:
+- Candidate workflows  
+- Recruiter workflows  
+- Job posting & applications  
+- Dashboards  
 
-🤝 Contributing
+---
 
-Fork the repository
+## 🤝 Contributing
+Contributions are welcome! 🚀
 
-Create a new branch
+1. Fork the repository  
+2. Create a new branch:
+```bash
+git checkout -b feature/your-feature
+```
+3. Commit your changes:
+```bash
+git commit -m "feat: add your feature"
+```
+4. Push to the branch:
+```bash
+git push origin feature/your-feature
+```
+5. Open a Pull Request  
 
-Commit changes
+---
 
-Push and create a PR
+## 📄 License
+This project currently has **no license** — all rights reserved.
 
-📄 License
+---
 
-No license provided yet — all rights reserved.
-
-✉️ Contact
-
-For any queries, open an issue on GitHub or contact surajharogoppa@gmail.com
+## ✉️ Contact
+- **GitHub:** https://github.com/surajharogoppa  
+- **Email:** surajharogoppa@gmail.com  
