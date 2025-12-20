@@ -1,6 +1,6 @@
 # HireVai 🚀
 
-HireVai is a **full-stack Job Portal application** built with a **React frontend** and a **Node.js + Express backend**. It supports two primary roles — **Candidates** and **Recruiters** — and enables an end-to-end hiring workflow including job posting, job applications, applicant management, and dashboards, all wrapped in a modern and responsive UI.
+HireVai is a **full-stack Job Portal application** built with a **React frontend** and a **Python Backend**. It supports two primary roles — **Candidates** and **Recruiters** — and enables an end-to-end hiring workflow including job posting, job applications, applicant management, and dashboards, all wrapped in a modern and responsive UI.
 
 ---
 
@@ -37,16 +37,12 @@ HireVai is a **full-stack Job Portal application** built with a **React frontend
 
 ### Frontend
 - React  
-- React Router  
-- Axios  
-- Modern CSS  
+- React Router   
+- Tailwind CSS  
 
 ### Backend
-- Node.js  
-- Express  
-- JavaScript  
+- Python    
 - MongoDB / PostgreSQL  
-- CORS support  
 
 ---
 
@@ -158,25 +154,6 @@ The project is fully running with:
 - Job posting & applications  
 - Dashboards  
 
----
-
-## 🤝 Contributing
-Contributions are welcome! 🚀
-
-1. Fork the repository  
-2. Create a new branch:
-```bash
-git checkout -b feature/your-feature
-```
-3. Commit your changes:
-```bash
-git commit -m "feat: add your feature"
-```
-4. Push to the branch:
-```bash
-git push origin feature/your-feature
-```
-5. Open a Pull Request  
 
 ---
 
